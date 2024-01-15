@@ -27,6 +27,8 @@ jupyterlab-geojson>=3.4.0,<4
 jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
+# for opening files from GitHub, e.g. ?fromURL=https://raw.githubusercontent.com/jupyterlab/jupyterlab-demo/master/notebooks/Lorenz.ipynb&fromURL=https://raw.githubusercontent.com/jupyterlab/jupyterlab-demo/master/data/iris.csv
+jupyterlab-open-url-parameter
 
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.1.1,<9
