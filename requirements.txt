@@ -46,5 +46,6 @@ pyodide_http
 pandas
 plotly
 bqplot
-lxml
 nbformat
+lxml
+html5lib
