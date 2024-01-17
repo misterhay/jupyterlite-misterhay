@@ -49,3 +49,4 @@ bqplot
 nbformat
 lxml
 html5lib
+bs4
