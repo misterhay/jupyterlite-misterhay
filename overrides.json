@@ -1,14 +1,25 @@
 {
-    "@jupyterlab/notebook-extension:panel": {
-      "toolbar": [
-        {
-          "name": "download",
-          "label": "Download",
-          "args": {},
-          "command": "docmanager:download",
-          "icon": "ui-components:download",
-          "rank": 50
-        }
-      ]
-    }
+  "@jupyterlab/notebook-extension:panel": {
+    "toolbar": [
+      {
+        "name": "download",
+        "label": "Download",
+        "args": {},
+        "command": "docmanager:download",
+        "icon": "ui-components:download",
+        "rank": 50,
+        "hidden": true
+      },
+      {
+        "name": "save",
+        "label": "Save",
+        "args": {},
+        "command": "docmanager:save",
+        "icon": "ui-components:save",
+        "rank": 100,
+        "hidden": true
+      }
+
+    ]
   }
+}
