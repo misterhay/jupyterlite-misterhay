@@ -7,8 +7,7 @@
         "args": {},
         "command": "docmanager:download",
         "icon": "ui-components:download",
-        "rank": 50,
-        "hidden": true
+        "rank": 50
       },
       {
         "name": "save",
@@ -16,8 +15,7 @@
         "args": {},
         "command": "docmanager:save",
         "icon": "ui-components:save",
-        "rank": 100,
-        "hidden": true
+        "rank": 100
       }
 
     ]
