@@ -10,12 +10,24 @@
         "rank": 50
       },
       {
-        "name": "save",
-        "label": "Save",
-        "args": {},
-        "command": "docmanager:save",
-        "icon": "ui-components:save",
-        "rank": 100
+        "name": "add-code-cell",
+        "label": "Insert Code Cell",
+        "args": {
+          "index": 0
+        },
+        "command": "notebook:insert-code-cell",
+        "icon": "ui-components:code",
+        "rank": 10
+      },
+      {
+        "name": "add-markdown-cell",
+        "label": "Insert Markdown Cell",
+        "args": {
+          "index": 0
+        },
+        "command": "notebook:insert-markdown-cell",
+        "icon": "ui-components:markdown",
+        "rank": 20
       }
 
     ]
