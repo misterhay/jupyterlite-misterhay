@@ -6,12 +6,12 @@
         "icon": "ui-components:clear",
         "command": "notebook:clear-all-cell-outputs",
         "args": {},
-        "rank": 30
+        "rank": 34
       },
       {
-        "name": "toggle-all-line-numbers",
+        "name": "toggle-line-numbers",
         "icon": "ui-components:line-numbers",
-        "command": "notebook:toggle-all-line-numbers",
+        "command": "notebook:toggle-line-numbers",
         "args": {},
         "rank": 41
       },
@@ -25,5 +25,6 @@
         "disabled": false
       }
     ]
+    
   }
 }
