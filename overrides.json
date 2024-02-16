@@ -22,17 +22,9 @@
   "@jupyterlab/shortcuts-extension:shortcuts": {
     "shortcuts": [
     {
-        "keys": ["x"],
+        "keys": ["x", "y", "m", "r"],
         "disabled": true
-    },
-    {
-      "command": "imageviewer:flip-horizontal",
-      "keys": [
-          "y"
-      ],
-      "selector": ".jp-ImageViewer",
-      "disabled": true
-  }
+    }
   ]
 }
 }
