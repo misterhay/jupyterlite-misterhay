@@ -2,34 +2,38 @@
   "@jupyterlab/notebook-extension:panel": {
     "toolbar": [
       {
-        "name": "download",
-        "label": "Download",
+        "name": "clear-all-outputs",
+        "label": "Clear Outputs",
+        "icon": "ui-components:clear",
+        "command": "notebook:clear-all-cell-outputs",
         "args": {},
-        "command": "docmanager:download",
-        "icon": "ui-components:download",
-        "rank": 50
+        "rank": 30
       },
       {
         "name": "add-code-cell",
         "label": "Insert Code Cell",
-        "args": {
-          "index": 0
-        },
-        "command": "notebook:insert-code-cell",
         "icon": "ui-components:code",
-        "rank": 10
+        "command": "notebook:insert-code-cell",
+        "args": {},
+        "rank": 40
       },
       {
         "name": "add-markdown-cell",
         "label": "Insert Markdown Cell",
-        "args": {
-          "index": 0
-        },
-        "command": "notebook:insert-markdown-cell",
         "icon": "ui-components:markdown",
-        "rank": 20
+        "command": "notebook:insert-markdown-cell",
+        "args": {},
+        "rank": 41
+      },
+      {
+        "name": "download",
+        "label": "Download",
+        "icon": "ui-components:download",
+        "command": "docmanager:download",
+        "args": {},
+        "rank": 50,
+        "disabled": true
       }
-
     ]
   }
 }
