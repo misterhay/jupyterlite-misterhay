@@ -3,7 +3,6 @@
     "toolbar": [
       {
         "name": "clear-all-outputs",
-        "label": "Clear Outputs",
         "icon": "ui-components:clear",
         "command": "notebook:clear-all-cell-outputs",
         "args": {},
@@ -15,7 +14,7 @@
         "icon": "ui-components:code",
         "command": "notebook:insert-code-cell",
         "args": {},
-        "rank": 40
+        "rank": 41
       },
       {
         "name": "add-markdown-cell",
@@ -23,7 +22,7 @@
         "icon": "ui-components:markdown",
         "command": "notebook:insert-markdown-cell",
         "args": {},
-        "rank": 41
+        "rank": 42
       },
       {
         "name": "download",
@@ -32,7 +31,7 @@
         "command": "docmanager:download",
         "args": {},
         "rank": 50,
-        "disabled": true
+        "disabled": false
       }
     ]
   }
