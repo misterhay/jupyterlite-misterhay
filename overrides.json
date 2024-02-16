@@ -21,5 +21,13 @@
   },
   "@jupyterlab/apputils-extension:themes": {
     "theme": "JupyterLab Dark"
+  },
+  "keys": {
+    "unbind": [
+      "y",
+      "m",
+      "r",
+      "x"
+    ]
   }
 }
