@@ -17,36 +17,6 @@
         "rank": 50,
         "disabled": false
       }
-    ],
-    "@jupyterlab/shortcuts-extension:shortcuts": {
-        "shortcuts": [
-        {
-          "command": "notebook:change-cell-to-code",
-          "keys": ["Y"],
-          "disabled": true
-        },
-        {
-          "command": "notebook:change-cell-to-markdown",
-          "keys": ["M"],
-          "disabled": true
-        },
-        {
-          "command": "notebook:change-cell-to-raw",
-          "keys": ["R"],
-          "disabled": true
-        },
-        {
-          "command": "notebook:cut-cell",
-          "keys": ["Ctrl X"],
-          "disabled": true
-        },
-        {
-          "command": "notebook:delete-cell",
-          "keys": ["Ctrl D"],
-          "disabled": true
-        }
-
-      ]
-    }
+    ]
   }
 }
