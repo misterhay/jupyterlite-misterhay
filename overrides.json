@@ -12,7 +12,7 @@
         "name": "add-code-cell",
         "label": "Insert Code Cell",
         "icon": "ui-components:code",
-        "command": "notebook:insert-code-cell",
+        "command": "notebook:insert-cell-below",
         "args": {},
         "rank": 41
       },
@@ -32,6 +32,11 @@
         "args": {},
         "rank": 50,
         "disabled": false
+      },
+      {
+        "name": "change-cell-type",
+        "disabled": true
+      }
       }
     ]
   }
