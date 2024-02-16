@@ -19,15 +19,20 @@
       }
     ]
   },
-  "@jupyterlab/apputils-extension:themes": {
-    "theme": "JupyterLab Dark"
-  },
-  "keys": {
-    "unbind": [
-      "y",
-      "m",
-      "r",
-      "x"
-    ]
+  "@jupyterlab/shortcuts-extension:shortcuts": {
+    "shortcuts": [
+    {
+        "keys": ["x"],
+        "disabled": true
+    },
+    {
+      "command": "imageviewer:flip-horizontal",
+      "keys": [
+          "y"
+      ],
+      "selector": ".jp-ImageViewer",
+      "disabled": true
   }
+  ]
+}
 }
