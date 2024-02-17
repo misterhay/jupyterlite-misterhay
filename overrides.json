@@ -18,5 +18,21 @@
         "disabled": false
       }
     ]
+  },
+  "@jupyterlab/shortcuts-extension:shortcuts": {
+    "shortcuts": [
+    {
+      "keys":["x"],
+      "disabled": true
+    },
+    {
+      "command": "imageviewer:flip-horizontal",
+      "keys": [
+          "H"
+      ],
+      "selector": ".jp-ImageViewer",
+      "disabled": true
+    }
+    ]
   }
 }
