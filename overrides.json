@@ -22,16 +22,15 @@
   "@jupyterlab/shortcuts-extension:shortcuts": {
     "shortcuts": [
     {
+      "command": "imageviewer:zoom-in",
       "keys":["x"],
-      "disabled": true
+      "disabled": false
     },
     {
       "command": "imageviewer:flip-horizontal",
-      "keys": [
-          "H"
-      ],
+      "keys": ["H"],
       "selector": ".jp-ImageViewer",
-      "disabled": true
+      "disabled": false
     }
     ]
   }
