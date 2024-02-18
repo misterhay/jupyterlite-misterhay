@@ -3,17 +3,25 @@
       "shortcuts": [
       {
           "command": "jupyter-notebook:cut-cell",
-          "keys": [
-              "x"
-          ],
-          "selector": ".jp-CodeRunner",
+          "keys": ["x"],
+          "selector": ".jp-code-runner",
           "disabled":true
       },
       {
+        "command": "jupyter-notebook:cut-cell",
+        "keys": ["X"],
+        "selector": ".jp-code-runner",
+        "disabled":true
+    },
+      {
+        "command": "documentsearch:start",
+        "keys": ["Accel F"],
+        "selector": ".jp-mod-searchable",
+        "disabled": true
+      }
+      {
         "command": "imageviewer:flip-horizontal",
-        "keys": [
-            "x"
-        ],
+        "keys": ["H"],
         "selector": ".jp-ImageViewer",
         "disabled": true
     }
