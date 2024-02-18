@@ -1,7 +1,4 @@
 {
-  "@jupyterlab/apputils-extension:themes": {
-      "theme": "JupyterLab Dark"
-  },
   "@jupyterlab/shortcuts-extension:shortcuts": {
       "shortcuts": [
       {
@@ -9,7 +6,7 @@
           "keys": [
               "x"
           ],
-          "selector": "[data-jp-code-runner]",
+          "selector": ".jp-CodeRunner",
           "disabled":true
       },
       {
