@@ -5,11 +5,12 @@
   "@jupyterlab/shortcuts-extension:shortcuts": {
       "shortcuts": [
       {
-          "command": "imageviewer:flip-horizontal",
+          "command": "jupyter-notebook:cut-cell",
           "keys": [
-              "X"
+              "x"
           ],
-          "selector": ".jp-ImageViewer"
+          "selector": "[data-jp-code-runner]",
+          "disabled":true
       },
       {
         "command": "imageviewer:flip-horizontal",
