@@ -1,30 +1,126 @@
 {
   "@jupyterlab/shortcuts-extension:shortcuts": {
       "shortcuts": [
-      {
-          "command": "jupyter-notebook:cut-cell",
-          "keys": ["x"],
-          "selector": ".jp-code-runner",
+        {
+          "command": "notebook:change-cell-to-code",
+          "keys": [
+              "Y"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
           "disabled":true
-      },
-      {
-        "command": "jupyter-notebook:cut-cell",
-        "keys": ["X"],
-        "selector": ".jp-code-runner",
-        "disabled":true
-    },
-      {
-        "command": "documentsearch:start",
-        "keys": ["Accel F"],
-        "selector": ".jp-mod-searchable",
-        "disabled": true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-1",
+          "keys": [
+              "1"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-2",
+          "keys": [
+              "2"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-3",
+          "keys": [
+              "3"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-4",
+          "keys": [
+              "4"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-5",
+          "keys": [
+              "5"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-heading-6",
+          "keys": [
+              "6"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-markdown",
+          "keys": [
+              "M"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:change-cell-to-raw",
+          "keys": [
+              "R"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
+        },
+        {
+          "command": "notebook:cut-cell",
+          "keys": [
+              "X"
+          ],
+          "winKeys": [],
+          "macKeys": [],
+          "linuxKeys": [],
+          "selector": ".jp-Notebook:focus",
+          "args": {},
+          "disabled":true
       }
-      {
-        "command": "imageviewer:flip-horizontal",
-        "keys": ["H"],
-        "selector": ".jp-ImageViewer",
-        "disabled": true
-    }
     ]
   }
 }
