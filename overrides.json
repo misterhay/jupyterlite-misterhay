@@ -1,36 +1,23 @@
 {
-  "@jupyterlab/notebook-extension:panel": {
-    "toolbar": [
-      {
-        "name": "clear-all-outputs",
-        "icon": "ui-components:clear",
-        "command": "notebook:clear-all-cell-outputs",
-        "args": {},
-        "rank": 34
-      },
-      {
-        "name": "download",
-        "label": "Download",
-        "icon": "ui-components:download",
-        "command": "docmanager:download",
-        "args": {},
-        "rank": 50,
-        "disabled": false
-      }
-    ]
+  "@jupyterlab/apputils-extension:themes": {
+      "theme": "JupyterLab Dark"
   },
   "@jupyterlab/shortcuts-extension:shortcuts": {
-    "shortcuts": [
-    {
-      "command": "imageviewer:zoom-in",
-      "keys":["x"],
-      "disabled": false
-    },
-    {
-      "command": "imageviewer:flip-horizontal",
-      "keys": ["H"],
-      "selector": ".jp-ImageViewer",
-      "disabled": false
+      "shortcuts": [
+      {
+          "command": "imageviewer:flip-horizontal",
+          "keys": [
+              "X"
+          ],
+          "selector": ".jp-ImageViewer"
+      },
+      {
+        "command": "imageviewer:flip-horizontal",
+        "keys": [
+            "H"
+        ],
+        "selector": ".jp-ImageViewer",
+        "disabled": true
     }
     ]
   }
