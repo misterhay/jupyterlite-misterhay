@@ -12,7 +12,7 @@
       {
         "command": "imageviewer:flip-horizontal",
         "keys": [
-            "H"
+            "x"
         ],
         "selector": ".jp-ImageViewer",
         "disabled": true
