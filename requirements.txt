@@ -43,6 +43,7 @@ ipyleaflet
 
 # Python: data science and plotting libraries (optional)
 pyodide_http
+requests
 pandas
 plotly
 bqplot
